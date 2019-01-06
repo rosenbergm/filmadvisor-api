@@ -1,0 +1,34 @@
+# Try to write your query here
+query GetMovie {
+  movie(id: 2) {
+    id
+    title
+    director
+  }
+}
+
+query GetAllMovies {
+  movies {
+    id
+    title
+    director
+  }
+}
+
+mutation CreateMovie {
+  createMovie (data: {title: "HA", director: "lolol"}) {
+    title
+    director
+  }
+}
+
+mutation UpdateMovie {
+  updateMovie (id: 5, data: {title: "The End", director: "Ihave Noidea"}) {
+    title
+    director
+  }
+}
+
+mutation DeleteMovie {
+  deleteMovie (id: 5)
+}
