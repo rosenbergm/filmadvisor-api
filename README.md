@@ -12,7 +12,7 @@
 
 3. Install NodeJS from https://nodejs.org/dist/v10.15.0/node-v10.15.0-x64.msi
 4. Initialize all the modules by issuing `npm i` in the project folder
-5. Run `./node_modules/.bin/sequelize db:create` to create the Database
-6. Compose the Docker container and start the Database by running `docker-compose up -d`
+5. Compose the Docker container and start the Database by running `docker-compose up -d`
+6. Run `./node_modules/.bin/sequelize db:create` to create the Database
 7. Update the Database and insert all Seeders by running `npm run update-db`
 8. Start the API by issuing `npm run dev`
