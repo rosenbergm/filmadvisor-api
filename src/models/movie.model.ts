@@ -17,5 +17,4 @@ export default class Movie extends Model<Movie> {
   @Field()
   @Column
   director: string
-
 }
